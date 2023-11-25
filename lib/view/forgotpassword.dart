@@ -15,14 +15,12 @@ class ForgotPassword extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 0),
-              child: Image.network(
-                  "https://qph.cf2.quoracdn.net/main-qimg-3ad579d3e2136daa1591d309beafc5ee"),
-              // child: Image.asset(
-              //   "assets/images/logo.jpg",
-              //   height: MediaQuery.of(context).size.height * 0.32,
-              //   width: MediaQuery.of(context).size.width,
-              //   fit: BoxFit.fill,
-              // )
+              child: Image.asset(
+                "assets/images/s.png",
+                height: MediaQuery.of(context).size.height * 0.4,
+                width: MediaQuery.of(context).size.width,
+                fit: BoxFit.fill,
+              ),
             ),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.03,

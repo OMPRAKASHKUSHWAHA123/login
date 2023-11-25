@@ -41,15 +41,17 @@ class _LoginPageState extends State<LoginPage> {
             // mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // child: Image.asset(
-              //     "assets/images/logo.jpg",
-              //     height: MediaQuery.of(context).size.height * 0.32,
-              //     width: MediaQuery.of(context).size.width,
-              //     fit: BoxFit.fill,
-              //   )
+              // child:
+              Image.asset(
+                "assets/images/s.png",
+                //"assets/images/shutta.png",
+                height: MediaQuery.of(context).size.height * 0.4,
+                width: MediaQuery.of(context).size.width,
+                fit: BoxFit.fill,
+              ),
 
-              Image.network(
-                  "https://qph.cf2.quoracdn.net/main-qimg-3ad579d3e2136daa1591d309beafc5ee"),
+              // Image.network(
+              //     "https://qph.cf2.quoracdn.net/main-qimg-3ad579d3e2136daa1591d309beafc5ee"),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0, bottom: 20),
                 child: CommonText(

@@ -42,8 +42,14 @@ class _RegistrationPageState extends State<RegistrationPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.network(
-                  "https://qph.cf2.quoracdn.net/main-qimg-3ad579d3e2136daa1591d309beafc5ee"),
+              Image.asset(
+                "assets/images/s.png",
+                height: MediaQuery.of(context).size.height * 0.4,
+                width: MediaQuery.of(context).size.width,
+                fit: BoxFit.fill,
+              ),
+              // Image.network(
+              //     "https://qph.cf2.quoracdn.net/main-qimg-3ad579d3e2136daa1591d309beafc5ee"),
 
               Padding(
                 padding: const EdgeInsets.only(left: 18.0, bottom: 20),
